@@ -96,6 +96,7 @@ li a{
     font-size: 16px;
     width: 160px;
     height: 56px;
+    text-align: center;
 }
 
 .main-content{
@@ -133,4 +134,192 @@ li a{
 
 .main-content-buttons{
     margin-top: 50px;
+}
+
+.photo-content .palm{
+    position: absolute;
+    bottom: -500px;
+    right: -1530px;
+}
+
+.content-about-travel-agency-title{
+    color: rgba(244, 246, 250, 0.80);
+    /* font-family: Poppins; */
+    font-size: 430px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 300px;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.content-about-travel-agency-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.yakor{
+    position: relative;
+}
+
+.img-2{
+    position: absolute;
+    top: 180px;
+    left: 300px;
+}
+
+.img-1{
+    position: absolute;
+    left: 0px;
+    top: -150px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    position: relative;
+    left: 650px;
+    top: -150px
+}
+
+.about-content img{
+    width: 91px;
+    height: 17px;
+}
+
+.about-content h1{
+    color: #1F3347;
+    /* font-family: Poppins; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.about-content p{
+    color: #9DA1B4;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-content ul{
+    list-style: none;
+    color: #9DA1B4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    background-image: url("/img/az.png");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 10px;
+}
+
+.about-content .a20plus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a20plus-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.a20plus-1-1{
+    color: #FFC814;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.a20plus-1-2{
+    color: #9DA1B4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 7px;
+}
+
+.order-a-ticket{
+    position: relative;
+}
+
+.order-a-ticket-2 li{
+    padding-left: 60px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-right: 15px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    border-radius: 5px 5px 0px 0px ;
+    background: white;
+}
+
+.order-a-ticket-2 li:nth-child(1){
+    background: #FFC814;
+}
+
+.order-a-ticket-2 a{
+    color: #1F3347;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+.order-a-ticket-1{
+    width: 1300px;
+    height: 174px;
+    position: absolute;
+    top: -150px;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    background: white;
+}
+
+.order-a-ticket-2{
+    position: absolute;
+    top: -200px;
+    left: -20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px -30px;
+}
+
+.hotel-img, .flight-img, .car-img, .ship-img{
+    width: 30px;
+    height: 30px;
+    margin: -8px;
+    margin-left: -30px;
+}
+
+.order-a-ticket-1-title h4{
+    margin-left: 20px;
+}
+
+.order-a-ticket-1-title{
+    display: flex;
+    flex-direction: row;
+}
+
+.i_10{
+    width: 170px;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    border: none
 }
