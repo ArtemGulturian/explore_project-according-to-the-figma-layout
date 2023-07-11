@@ -86,7 +86,7 @@ li a{
     font-weight: 600;
 }
 
-.btn-yellow, .btn-white{
+.btn-yellow, .btn-white, .btn-yellow-2{
     /* border: 1px solid #FFC814; */
     border-radius: 4px;
     padding: 15px 30px;
@@ -97,6 +97,12 @@ li a{
     width: 160px;
     height: 56px;
     text-align: center;
+}
+
+.btn-yellow-2{
+    position: absolute;
+    top: 65px;
+    right: 47px;
 }
 
 .main-content{
@@ -314,10 +320,20 @@ li a{
     flex-direction: row;
 }
 
+input{
+    color: #70717B;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    padding-left: 20px;
+}
+
 .i_10{
-    width: 170px;
+    width: 190px;
     height: 60px;
-    margin-left: 20px;
+    margin-left: 23px;
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 6px 24px 0px #E4E2EE;
